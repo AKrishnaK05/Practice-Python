@@ -1,3 +1,3 @@
 # Python Bootcamp
 
-Practice Questions
+Practising Concepts
