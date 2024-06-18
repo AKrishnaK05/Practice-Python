@@ -1,5 +1,8 @@
+--  Creating Database
 create database amazon;
 use amazon;
+
+-- Creating table
 create table products
 (
 	pid int(3) primary key,
@@ -33,3 +36,6 @@ create table payment
     status varchar(30),
     foreign key(oid) references orders(oid)
 );
+
+-- Viewing the table
+select * from products;
